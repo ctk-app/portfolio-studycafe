@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #1e293b;
+  --blue: #3b82f6;
+  --sky: #e0f2fe;
+  --dark: #0f172a;
+}
+
+body { background: #fafbfc; color: var(--navy); }
+
+.btn-blue {
+  background: var(--blue);
+  color: white;
+  padding: 14px 36px;
+  border-radius: 12px;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+.btn-blue:hover { background: #2563eb; transform: translateY(-1px); }
