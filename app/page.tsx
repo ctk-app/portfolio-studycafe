@@ -190,7 +190,7 @@ export default function Home() {
             <p>건대입구역 1번 출구 도보 1분</p>
             <p>24시간 운영 | 연중무휴</p>
             <p className="mt-4">
-              <a href="tel:02-5555-6666" className="font-bold" style={{ color: "var(--blue)" }}>02-5555-6666</a>
+              <span className="font-bold" style={{ color: "var(--blue)" }}>카카오톡 문의</span>
             </p>
           </div>
         </div>
